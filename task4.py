@@ -14,5 +14,5 @@ elif xl <= wl and xl < yl and xl <= zl:
     print(TEMPLATE.format('x'))
 elif yl <= wl and yl <= xl and yl <= zl:
     print(TEMPLATE.format('y'))
-elif zl <= wl and zl <= xl and zl <= yl:
+else :
     print(TEMPLATE.format('z'))
