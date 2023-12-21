@@ -12,14 +12,14 @@ jobs:
 
       steps:
       - name: Print Hello World Message
-        run:  echo "Hello World from Testing job"
+      - run:  echo "Hello World from Testing job"
         
    my_deploy:
       runs-on: ubuntu-latest
       
       steps: 
       - name: Print Hello World Message
-        run:  echo "Hello World from Testing job"
+      - run:  echo "Hello World from Testing job"
       
       
       
